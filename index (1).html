@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sarba Seva Foundation — working for compassion, dignity, community welfare and a better future for all.">
+  <title>Sarba Seva Foundation | Service for All</title>
+  <style>
+    :root{--green:#145b43;--deep:#103d31;--gold:#e9b949;--cream:#fbfaf5;--ink:#20332c;--muted:#63736b;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);z-index:10;border-bottom:1px solid #e6e9e3}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--deep);letter-spacing:.2px}
+    .mark{width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:white;font-size:22px}
+    nav{display:flex;gap:25px;align-items:center;font-size:14px;font-weight:700}nav a:hover{color:var(--green)}
+    .menu{display:none;border:0;background:var(--green);color:#fff;border-radius:8px;padding:9px 12px;font-size:18px}
+    .hero{background:linear-gradient(115deg,#103d31ed,#145b43d9),url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=1800&q=85') center/cover;color:#fff;padding:105px 0 100px}
+    .eyebrow{color:#f3d27b;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}
+    h1{font-size:clamp(38px,6vw,66px);line-height:1.08;max-width:780px;margin:16px 0}
+    .hero p{font-size:18px;max-width:650px;color:#edf4ef}
+    .actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+    .btn{display:inline-block;padding:13px 21px;border-radius:7px;font-weight:800;font-size:14px}
+    .primary{background:var(--gold);color:#1d342a}.outline{border:1px solid #ffffffa8;color:#fff}
+    section{padding:78px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}
+    .kicker{color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:1.8px;font-size:12px}
+    h2{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:10px 0 14px;color:var(--deep)}
+    .section-head p,.muted{color:var(--muted)}
+    .about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}
+    .about-photo{min-height:350px;border-radius:18px;background:url('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1100&q=85') center/cover;box-shadow:18px 18px 0 #e8eddf}
+    .about-copy p{color:var(--muted)}
+    .values{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+    .value{background:#fff;padding:22px;border:1px solid #e9ece5;border-radius:12px}
+    .value .ico{font-size:25px}.value h3{margin:9px 0 5px;color:var(--deep);font-size:17px}.value p{font-size:14px;margin:0}
+    .work{background:#f0f4ed}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;border-radius:13px;overflow:hidden;border:1px solid #e5eae2}
+    .card img{width:100%;height:185px;object-fit:cover;display:block}.card-body{padding:20px}.card h3{margin:0 0 8px;color:var(--deep)}.card p{margin:0;color:var(--muted);font-size:14px}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .gallery-grid img{width:100%;height:220px;object-fit:cover;border-radius:10px;background:#e4e9e1}
+    .notice{font-size:13px;color:#80652a;background:#fff8e7;border-left:4px solid var(--gold);padding:13px 16px;border-radius:4px;margin-top:22px}
+    .contact{background:var(--deep);color:#fff}.contact h2{color:#fff}.contact .section-head p{color:#d6e3da}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+    .contact-box{background:#ffffff12;border:1px solid #ffffff28;border-radius:12px;padding:24px}
+    .contact-box p{color:#e0ebe4}.contact-box strong{color:#f3d27b}
+    form{display:grid;gap:12px}input,textarea{width:100%;padding:13px;border-radius:7px;border:1px solid #d8e0d8;font:inherit}textarea{min-height:120px;resize:vertical}form button{border:0;cursor:pointer}
+    footer{background:#0a2d24;color:#c6d7cd;padding:25px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){.nav{height:68px}nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:18px 4%;flex-direction:column;align-items:flex-start;border-bottom:1px solid #e6e9e3}nav.open{display:flex}.menu{display:block}.hero{padding:78px 0}.about-grid,.contact-grid{grid-template-columns:1fr}.about-photo{min-height:260px}.values,.cards{grid-template-columns:1fr}.gallery-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid img{height:160px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="mark">✦</span><span>SARBA SEVA FOUNDATION<small style="display:block;font-size:10px;letter-spacing:1.5px;color:#688074">SERVICE • DIGNITY • COMPASSION</small></span></a>
+    <button class="menu" aria-label="Open navigation" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+    <nav>
+      <a href="#home">Home</a><a href="#about">About Us</a><a href="#work">Our Focus</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="eyebrow">A commitment to serve every life</div>
+    <h1>Small acts of service. A stronger, kinder society.</h1>
+    <p>Sarba Seva Foundation is envisioned as a community-focused initiative working towards compassion, dignity, inclusion and opportunity for people, animals and the environment.</p>
+    <div class="actions"><a class="btn primary" href="#about">Discover our mission</a><a class="btn outline" href="#contact">Get in touch</a></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-photo" role="img" aria-label="Volunteers working together in a community"></div>
+    <div class="about-copy">
+      <div class="kicker">Who we are</div><h2>Service without boundaries.</h2>
+      <p>Sarba Seva Foundation aims to bring people together to respond to community needs with care, responsibility and practical action. Our vision is an inclusive society where every person is treated with respect and every living being is valued.</p>
+      <p>We seek to support meaningful initiatives across social welfare, education, health awareness, disability inclusion, animal welfare, environmental protection and community development.</p>
+      <div class="values">
+        <div class="value"><div class="ico">🤝</div><h3>Compassion</h3><p>Responding to needs with empathy.</p></div>
+        <div class="value"><div class="ico">🌱</div><h3>Inclusion</h3><p>Creating opportunities for all.</p></div>
+        <div class="value"><div class="ico">🐾</div><h3>Care for life</h3><p>Respecting animals and nature.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="work" id="work">
+  <div class="wrap">
+    <div class="section-head"><div class="kicker">Our focus areas</div><h2>Working for a better tomorrow</h2><p>Our programmes and partnerships may grow in response to local needs and available resources.</p></div>
+    <div class="cards">
+      <article class="card"><img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=900&q=80" alt="Community education activity"><div class="card-body"><h3>Education & opportunity</h3><p>Encouraging learning, awareness, skill development and equal opportunities.</p></div></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=900&q=80" alt="Dog receiving care"><div class="card-body"><h3>Animal welfare</h3><p>Promoting kindness, protection and responsible care for animals.</p></div></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=900&q=80" alt="Volunteers supporting a community"><div class="card-body"><h3>Community wellbeing</h3><p>Supporting awareness and initiatives for healthier, safer communities.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <div class="section-head"><div class="kicker">Our gallery</div><h2>Moments of service</h2><p>Replace these sample photographs with genuine photographs of your foundation's activities.</p></div>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=800&q=80" alt="Volunteers helping in a community">
+      <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80" alt="Children learning">
+      <img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=800&q=80" alt="Community support">
+      <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=800&q=80" alt="People working together">
+      <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80" alt="Dogs outdoors">
+      <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=800&q=80" alt="Volunteers together">
+    </div>
+    <div class="notice">Website launch note: The photographs shown are illustrative stock images, not verified photographs of foundation activities.</div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="section-head"><div class="kicker" style="color:#f3d27b">Contact</div><h2>Let's work together</h2><p>For volunteering, collaboration or general enquiries, please contact the foundation.</p></div>
+    <div class="contact-grid">
+      <div class="contact-box">
+        <h3>Foundation contact details</h3>
+        <p><strong>Organisation</strong><br>Sarba Seva Foundation</p>
+        <p><strong>Address</strong><br>[Add the foundation's approved postal address]</p>
+        <p><strong>Phone</strong><br>[Add official contact number]</p>
+        <p><strong>Email</strong><br>[Add official email address]</p>
+        <p style="font-size:13px">Please replace the bracketed details before publishing.</p>
+      </div>
+      <div class="contact-box">
+        <h3>Send an enquiry</h3>
+        <form onsubmit="event.preventDefault();alert('Thank you. This sample form is not connected yet. Please use the phone or email details listed on this page.');">
+          <input aria-label="Your name" placeholder="Your name" required>
+          <input type="email" aria-label="Email address" placeholder="Email address" required>
+          <textarea aria-label="Your message" placeholder="How would you like to connect?" required></textarea>
+          <button class="btn primary" type="submit">Submit enquiry</button>
+        </form>
+        <p style="font-size:12px;margin-bottom:0">This demonstration form does not transmit or store messages. Connect a form service before using it for public enquiries.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Sarba Seva Foundation. All rights reserved.</span><span>Service • Dignity • Compassion</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('nav').classList.remove('open')));</script>
+</body>
+</html>
